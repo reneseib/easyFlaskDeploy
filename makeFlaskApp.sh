@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 echo "Enter the path for your app:"
 read BASE_PATH
 
@@ -106,9 +105,6 @@ EOF
 
 sudo ln -s $SERVER_FILE /etc/nginx/sites-enabled
 sudo systemctl restart nginx
-
-# sudo apt-get install python-certbot-nginx
 sudo certbot --nginx -d $DOMAIN
-
 sudo chown -R $CURRENT_USER:www-data $APP_PATH
 sudo systemctl restart $SERVICE_NAME
