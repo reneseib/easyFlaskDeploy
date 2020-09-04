@@ -10,7 +10,7 @@ Bash script to easily set up a blank, serviced Flask app with gunicorn and NGINX
     - __static__
 
 ### Creates a service file:
-- ```/etc/systemd/system/```__appname__
+- ```/etc/systemd/system/```__appname.service__
 
 ### Creates server file:
 - ```/etc/nginx/sites-available``` and link to ```/etc/nginx/sites-enabled```
