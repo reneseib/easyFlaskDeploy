@@ -1,9 +1,10 @@
 # makeFlaskApp
 Bash script to easily set up a blank, serviced Flask app with gunicorn and NGINX on UNIX server
 
-### Creates the following directories:
+### Creates the following directory and file structure:
 - app
     - templates
+        - index.html
     - static
 
 ### Creates the following files:
