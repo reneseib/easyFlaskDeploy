@@ -10,7 +10,7 @@ Bash script to easily set up a blank, serviced Flask app with gunicorn and NGINX
 - application.py
 - wsgi.py
 - (appname).service (```in /etc/systemd/system/```)
-- server file ```in /etc/nginx/sites-available and links to /etc/nginx/sites-enabled```
+- server file in ```/etc/nginx/sites-available``` and links to ```/etc/nginx/sites-enabled```
 
 
 ### Required packages:
