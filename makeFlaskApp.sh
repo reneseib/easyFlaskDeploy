@@ -12,7 +12,7 @@ read DOMAIN
 # Path variables
 APP_PATH="$BASE_PATH/$APP_NAME"
 VENV_NAME="${APP_NAME}env"
-VENV_PATH="$APP_PATH/$VENV"
+VENV_PATH="$APP_PATH/$VENV_NAME"
 
 # Flask Files
 APP_FILE="$APP_PATH/application.py"
