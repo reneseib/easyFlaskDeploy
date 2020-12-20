@@ -1,4 +1,4 @@
-# makeFlaskApp
+# make_flask_app
 Bash script to easily set up a blank, serviced Flask app with gunicorn and NGINX on UNIX server (requires sudo rights)
 
 ### Creates the following directory and file structure:
